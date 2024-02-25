@@ -73,7 +73,7 @@ fun MyApp(
 @Composable
 fun OnboardingScreen(
     modifier: Modifier = Modifier,
-    onContinueClicked: () -> Unit
+    onContinueClicked: () -> Unit  // 클릭 시 발생할 action
 ) {
     Column(
         modifier = modifier.fillMaxSize(),
